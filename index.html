@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noman Zafar Software Solutions</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f172a;
+    color:#fff;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+header{
+    padding:20px 0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+    color:#38bdf8;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero h1 span{
+    color:#38bdf8;
+}
+
+.hero p{
+    color:#cbd5e1;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 30px;
+    background:#38bdf8;
+    color:#000;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:40px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    color:#cbd5e1;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:15px 0;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+    border-top:1px solid #1e293b;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:38px;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">NZ Software Solutions</div>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<div class="hero-content">
+<h1>Building <span>Reliable Software Solutions</span> For Your Business</h1>
+
+<p>
+Helping startups and businesses with modern web applications, cloud solutions, APIs, and software development.
+</p>
+
+<a href="#contact" class="btn">Get In Touch</a>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2 class="section-title">Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Web Development</h3>
+<p>Modern and responsive web applications tailored to your business.</p>
+</div>
+
+<div class="card">
+<h3>.NET Development</h3>
+<p>High-performance applications using C#, ASP.NET and related technologies.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Solutions</h3>
+<p>AWS-based deployment, integration, and optimization services.</p>
+</div>
+
+<div class="card">
+<h3>API Integration</h3>
+<p>Third-party APIs, payment gateways, and custom integrations.</p>
+</div>
+
+<div class="card">
+<h3>Bug Fixes</h3>
+<p>Maintenance, troubleshooting, and performance improvements.</p>
+</div>
+
+<div class="card">
+<h3>Desktop Applications</h3>
+<p>Reliable Windows desktop applications and enterprise solutions.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+<p>
+I'm <strong>Noman Zafar</strong>, a Senior Software Engineer with extensive experience in web development, desktop applications, cloud technologies, and software architecture. I help businesses build scalable and reliable software solutions.
+</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+<p>📧 your-email@example.com</p>
+<p>💼 Upwork Profile: Add your profile link here</p>
+<p>📍 Pakistan</p>
+</div>
+</div>
+</section>
+
+<footer>
+© 2026 Noman Zafar Software Solutions. All Rights Reserved.
+</footer>
+
+</body>
+</html>
